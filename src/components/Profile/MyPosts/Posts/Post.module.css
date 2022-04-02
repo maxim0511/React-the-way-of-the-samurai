@@ -1,0 +1,17 @@
+.item {
+    color:gray;
+}
+
+.item img {
+    width:80px;
+    border-radius: 40px;
+}
+
+.message {
+    display: flex;
+}
+div:last-of-type span {
+    color: green;
+    font-weight: bold;
+    margin-left: 0.5%;
+}

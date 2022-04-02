@@ -1,0 +1,32 @@
+.Dialogs {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.DialogsItems {
+    padding: 15px;
+}
+
+.messages{
+    padding: 15px;
+    color:green;
+    font-weight: bold;
+}
+
+.textarea {
+    margin: 10px; 
+    width: 350px;
+}
+.button {
+    background-color: white;
+    width: 300px;
+    font-size: 25px;
+    color: green;
+}
+.form {
+    display: flex;
+}
+.button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

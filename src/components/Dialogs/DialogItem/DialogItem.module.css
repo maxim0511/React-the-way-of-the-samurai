@@ -1,0 +1,9 @@
+.Dialog {
+    display: flex;
+    align-items: center;
+}
+.Dialog img {
+    width: 60px;
+    padding:3px;
+    border-radius:50%;
+}

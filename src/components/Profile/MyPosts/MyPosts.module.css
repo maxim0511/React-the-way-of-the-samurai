@@ -1,0 +1,31 @@
+h3 {
+    padding: 10px;
+}
+.content {
+    padding: 10px;
+}
+.AddPost {
+    padding: 10px;
+}
+.AddPostInput {
+    margin-left: 2%;
+    width: 600px;
+}
+.form {
+    display: flex;
+    width: 87%;
+    justify-content: space-between;
+}
+.button {
+    width: 200px;
+    height: 50px;
+    border: 0;
+    background-color: white;
+    font-size: 25px;
+    color: green;
+    margin-top: -3%;
+}
+.button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

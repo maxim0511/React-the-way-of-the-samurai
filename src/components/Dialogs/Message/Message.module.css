@@ -1,0 +1,8 @@
+.Dialog {
+    display: block;
+    margin-left: -180%;
+}
+.Dialog div {
+    width: 40%;
+    padding: 18px;
+}

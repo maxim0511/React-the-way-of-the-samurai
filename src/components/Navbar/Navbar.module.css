@@ -1,0 +1,28 @@
+.nav {
+    grid-area:n;
+    background: white;
+    text-align:center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold
+  }
+
+.item {
+  color:orange;
+}
+
+a {
+    text-decoration: none;
+    color:gray;
+}
+
+.item a.active {
+  color: green;
+  text-decoration: underline;
+}
+
+.itemFriends {
+  color:gray;
+  padding: 20px;
+  font-size: 45px;
+}

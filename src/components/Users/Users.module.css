@@ -1,0 +1,38 @@
+.img {
+    width: 100px;
+    padding: 15px;
+    border-radius: 50%;
+}
+.div {
+    display: flex;
+    max-width: 1000px;
+}
+.div button {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(231, 40, 72);
+    border: rgb(231, 40, 72);
+    border-radius: 15px;
+    font-size: 15px;
+    color: aqua;
+}
+.span {
+    width: 80%;
+    display: grid;
+    margin: 10px;
+    padding: 10px;
+    border: chartreuse ridge 1px;
+    color:aqua;
+    border-radius: 20px;
+    grid-template-columns: 3fr 1fr;
+}
+.name {
+    color:white;
+    font-weight: bold;
+}
+
+.location {
+    opacity: 0.5;
+    font-weight: bold;
+    color:white
+}

@@ -1,0 +1,27 @@
+.header {
+    grid-area:h;
+    background-color: white;
+  }
+  .login {
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+  }
+.LoginBlock {
+  margin-left: 5%;
+  color:green;
+  font-size: 45px;
+}
+.button {
+  margin-top: auto;
+  height: 46px;
+  width: 150px;
+  border: 0;
+  background-color: white;
+  font-size: 30px;
+  color: gray;
+}
+.button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

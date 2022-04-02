@@ -1,0 +1,22 @@
+.selected {
+    font-weight: bold;
+    border: 2px solid greenyellow;
+    color: white;
+    border-radius: 50px;
+}
+.Paginator {
+    text-align: center;
+}
+.Paginator span {
+    padding: 3px;
+    color: white;
+}
+.Paginator button {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(231, 40, 72);
+    border: rgb(231, 40, 72);
+    border-radius: 15px;
+    font-size: 15px;
+    color: aqua;
+}
