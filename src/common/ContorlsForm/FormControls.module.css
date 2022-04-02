@@ -13,13 +13,7 @@
     color:red
 }
 form button {
-    width: 150px;
-    height: 50px;
-    background-color: rgb(231, 40, 72);
-    border: rgb(231, 40, 72);
-    border-radius: 15px;
-    font-size: 15px;
-    color: aqua;
+    
 }
 .captcha {
     width: 30%;

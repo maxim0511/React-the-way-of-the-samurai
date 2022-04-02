@@ -34,7 +34,7 @@ let User:React.FC<propsType> =({user,followingInProgress,UnFollow,Follow}) => {
                                 <span className={s.span}>
                                     <span>
                                         <div className={s.name}>{user.name}</div>
-                                        <div>{user.status}</div>
+                                        <div className={s.status}>{user.status}</div>
                                     </span>
                                     <span className={s.location}>
                                         <div>{'u.location.country'}</div>

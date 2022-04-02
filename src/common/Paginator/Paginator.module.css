@@ -1,6 +1,6 @@
 .selected {
     font-weight: bold;
-    border: 2px solid greenyellow;
+    border: 2px solid gray;
     color: white;
     border-radius: 50px;
 }
@@ -9,14 +9,8 @@
 }
 .Paginator span {
     padding: 3px;
-    color: white;
+    color: green;
 }
 .Paginator button {
-    width: 150px;
-    height: 50px;
-    background-color: rgb(231, 40, 72);
-    border: rgb(231, 40, 72);
-    border-radius: 15px;
-    font-size: 15px;
-    color: aqua;
+
 }

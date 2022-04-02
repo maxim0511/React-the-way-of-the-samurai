@@ -9,7 +9,7 @@ import { AppStateType } from "../../Redux/ReduxStore";
 type PropsUserPage = {
     pageTitle:string
 }
-type QueryParamsType = { term?: string; page?: string; friend?: string }
+
 const UserPage:React.FC<PropsUserPage> = (props)=>{
     const isFetching = useSelector(GetIsFetching);
     const dispatch = useDispatch();
@@ -20,7 +20,6 @@ const UserPage:React.FC<PropsUserPage> = (props)=>{
         dispatch(getUsers(currentPage,pageSize,filter))
     },[])
     return <>
-            <h2>{props.pageTitle}</h2>
             {isFetching ? 
                 <Preloader/>
             : 

@@ -46,10 +46,10 @@ const LoginForm:React.FC<InjectedFormProps<LoginFormValuesType,LoginOwnProps> & 
     return (
         <form onSubmit={handleSubmit}>
             <div>
-                <Field placeholder="Email" name={'email'} component={Input} validate={[required,maxLength30]}/>
+                <Field placeholder="Email" name={'email'} component={Input} validate={[required,maxLength30]}/>max.volkov.2003@list.ru
             </div>
             <div>
-                <Field placeholder="password" type={'password'} name={'password'} component={Input} validate={[required,maxLength30]}/>
+                <Field placeholder="password" type={'password'} name={'password'} component={Input} validate={[required,maxLength30]}/>05112003maxvolkov
             </div>
             <div>
                 <Field type={'checkbox'}  name={'rememberMe'} component={Input}/>Запомнить меня
